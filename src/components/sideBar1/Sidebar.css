@@ -1,0 +1,79 @@
+.main .sidebar-wrapper {
+    width: 20%;
+    flex: 0 0 20%;
+    transition: all 0.3s ease-in-out;
+
+
+    
+}
+
+.main .sidebar-wrapper .sidebar {
+    width: 20%;
+    max-height: 100vh;
+     height: calc(100% - 70px);
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    background-color: #fff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.main .sidebar-wrapper .sidebar ul {
+    margin-bottom: 0px;
+    
+}
+
+.main .sidebar-wrapper .sidebar ul li {
+    list-style: none;
+}
+.main .sidebar-wrapper .sidebar ul button *{
+    color: rgba(0, 0, 0, 0.7);
+}
+.main .sidebar-wrapper .sidebar ul button {
+    color: black;
+    justify-content: left;
+    border-radius: 0px !important;
+    padding: 12px 15px !important;
+    
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: 600 !important;
+    font-family: sans-serif;
+}
+
+.main .sidebar-wrapper .sidebar ul button .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.main .sidebar-wrapper .sidebar ul button .icon svg {
+    color: #000;
+    opacity: 0.8;
+    font-size: 22px;
+
+}
+
+.main .sidebar-wrapper .sidebar ul button .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+
+}
+
+.main .sidebar-wrapper .sidebar ul button .arrow svg {
+    color: #000;
+    opacity: 0.8;
+    font-size: 22px;
+
+}
+.main .sidebar-wrapper .sidebar ul button:hover{
+    background: #f1f1f1;
+}
