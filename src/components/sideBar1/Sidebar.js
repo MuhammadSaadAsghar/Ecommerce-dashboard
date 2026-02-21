@@ -8,12 +8,14 @@ import { IoCart } from "react-icons/io5";
 import { FaBell } from "react-icons/fa";
 import { MdMessage } from "react-icons/md";
 import { IoSettings } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
       <ul>
         <li>
+          <Link to="/" >
           <Button className="w-100">
             <span className="icon">
               <MdDashboard />{" "}
@@ -23,8 +25,10 @@ const Sidebar = () => {
               <FaAngleRight />
             </span>
           </Button>
+          </Link>
         </li>
         <li>
+          <Link to="/" >
           <Button className="w-100">
             <span className="icon">
               <FaProductHunt/>{" "}
@@ -34,8 +38,10 @@ const Sidebar = () => {
               <FaAngleRight />
             </span>
           </Button>
+          </Link>
         </li>
         <li>
+          <Link to="/">
           <Button className="w-100">
             <span className="icon">
               <IoCart/>{" "}
@@ -45,8 +51,10 @@ const Sidebar = () => {
               <FaAngleRight />
             </span>
           </Button>
+          </Link>
         </li>
         <li>
+          <Link to="/">
           <Button className="w-100">
             <span className="icon">
               <MdMessage/>{" "}
@@ -56,8 +64,10 @@ const Sidebar = () => {
               <FaAngleRight />
             </span>
           </Button>
+          </Link>
         </li>
         <li>
+          <Link to="/">
           <Button className="w-100">
             <span className="icon">
               <FaBell/>{" "}
@@ -67,8 +77,11 @@ const Sidebar = () => {
               <FaAngleRight />
             </span>
           </Button>
+          </Link>
         </li>
         <li>
+          <Link to="/">
+         
           <Button className="w-100">
             <span className="icon">
               <IoSettings/>{" "}
@@ -78,8 +91,10 @@ const Sidebar = () => {
               <FaAngleRight />
             </span>
           </Button>
+           </Link>
         </li>
         <li>
+          <Link to="/">
           <Button className="w-100">
             <span className="icon">
               <IoSettings/>{" "}
@@ -89,8 +104,10 @@ const Sidebar = () => {
               <FaAngleRight />
             </span>
           </Button>
+          </Link>
         </li>
         <li>
+          <Link to="/">
           <Button className="w-100">
             <span className="icon">
               <IoSettings/>{" "}
@@ -100,8 +117,10 @@ const Sidebar = () => {
               <FaAngleRight />
             </span>
           </Button>
+          </Link>
         </li>
         <li>
+          <Link to="">
           <Button className="w-100">
             <span className="icon">
               <IoSettings/>{" "}
@@ -111,8 +130,10 @@ const Sidebar = () => {
               <FaAngleRight />
             </span>
           </Button>
+          </Link>
         </li>
         <li>
+          <Link to="/">
           <Button className="w-100">
             <span className="icon">
               <IoSettings/>{" "}
@@ -122,8 +143,10 @@ const Sidebar = () => {
               <FaAngleRight />
             </span>
           </Button>
+          </Link>
         </li>
         <li>
+          <Link to="/">
           <Button className="w-100">
             <span className="icon">
               <IoSettings/>{" "}
@@ -133,8 +156,10 @@ const Sidebar = () => {
               <FaAngleRight />
             </span>
           </Button>
+          </Link>
         </li>
         <li>
+          <Link to="">
           <Button className="w-100">
             <span className="icon">
               <IoSettings/>{" "}
@@ -144,8 +169,10 @@ const Sidebar = () => {
               <FaAngleRight />
             </span>
           </Button>
+          </Link>
         </li>
         <li>
+          <Link to="">
           <Button className="w-100">
             <span className="icon">
               <IoSettings/>{" "}
@@ -155,8 +182,10 @@ const Sidebar = () => {
               <FaAngleRight />
             </span>
           </Button>
+          </Link>
         </li>
         <li>
+          <Link to="/">
           <Button className="w-100">
             <span className="icon">
               <IoSettings/>{" "}
@@ -166,8 +195,10 @@ const Sidebar = () => {
               <FaAngleRight />
             </span>
           </Button>
+          </Link>
         </li>
         <li>
+          <Link to="/">
           <Button className="w-100 ">
             <span className="icon">
               <IoSettings/>{" "}
@@ -177,6 +208,7 @@ const Sidebar = () => {
               <FaAngleRight />
             </span>
           </Button>
+          </Link>
         </li>
       </ul>
     </div>
